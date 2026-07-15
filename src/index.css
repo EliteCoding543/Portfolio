@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+body {
+    background-image: url('/src/assets/SVG/grid.svg'), 
+                      radial-gradient(circle at top,#182038 0%,#070b17 55%,#04060f 100%);         
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: auto; 
+}
