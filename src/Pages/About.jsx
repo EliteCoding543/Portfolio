@@ -5,6 +5,7 @@ import {
   SiCodechef,
   SiCodeforces,
 } from "react-icons/si";
+
 import { FaGraduationCap } from "react-icons/fa";
 
 const About = () => {
@@ -30,25 +31,27 @@ const About = () => {
         <div className="w-16 h-1 bg-amber-500 rounded-full mt-2 mb-6"></div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
-          <div className="flex items-center gap-3">
-            <SiLeetcode className="text-3xl text-yellow-500" />
-            <span>LeetCode</span>
+          <div className="flex items-center gap-3 group">
+            <SiLeetcode className="text-9xl text-yellow-500 grayscale group-hover:grayscale-0 transition duration-300 cursor-pointer" />
+            <span className="group-hover:text-yellow-700 transition-colors duration-300">LeetCode</span>
           </div>
 
-          <div className="flex items-center gap-3">
-            <SiCodeforces className="text-3xl text-blue-500" />
-            <span>Codeforces</span>
+          <div className="flex items-center gap-3 group">
+            <SiCodeforces className="text-7xl text-blue-500 grayscale group-hover:grayscale-0 transition duration-300 cursor-pointer" />
+            <span className="group-hover:text-yellow-700 transition-colors duration-300">Codeforces</span>
           </div>
 
-          <div className="flex items-center gap-3">
-            <SiCodechef className="text-3xl text-amber-700" />
-            <span>CodeChef</span>
+          <div className="flex items-center gap-3 group">
+            <SiCodechef className="text-5xl text-amber-700 grayscale group-hover:grayscale-0 transition duration-300 cursor-pointer" />
+            <span className="group-hover:text-yellow-700 transition-colors duration-300">CodeChef</span>
           </div>
 
-          <div className="flex items-center gap-3">
-            <SiGithub className="text-3xl" />
-            <span>GitHub</span>
-          </div>
+          <div className="flex items-center gap-3 group cursor-pointer">
+              <SiGithub className="text-5xl grayscale group-hover:grayscale-0 group-hover:text-yellow-400 transition-all duration-300" />
+              <span className="group-hover:text-yellow-700 transition-colors duration-300">
+                GitHub
+              </span>
+        </div>
         </div>
       </div>
 
@@ -60,16 +63,19 @@ const About = () => {
         <div className="space-y-6">
 
           <div className="flex gap-4">
-            <FaGraduationCap className="text-2xl text-amber-500 mt-1" />
+            <div className="flex flex-col items-center">
+                 <FaGraduationCap className="text-2xl text-amber-500 mt-1" />
+                 <div className="w-1 h-18 bg-amber-500 rounded-full  flex"></div>
+            </div>
             <div>
               <h3 className="text-lg font-semibold">
-                Bachelor's Degree
+                Master's Degree
               </h3>
               <p className="text-sm text-gray-400">
-                2023 — Present
+                2026 — Pursuing
               </p>
               <p className="text-gray-300 mt-2">
-                Currently pursuing my Bachelor's degree while learning React.js,
+                Pursuing my Bachelor's degree while learning React.js,
                 JavaScript, Java, and Data Structures & Algorithms.
               </p>
             </div>
@@ -82,10 +88,14 @@ const About = () => {
             </div>
             <div>
               <h3 className="text-lg font-semibold">
-                Senior Secondary (Class XII)
+              Bacholr's Degree
               </h3>
               <p className="text-sm text-gray-400">
-                CBSE Board
+                2022 — 2025
+              </p>
+              <p className="text-sm text-gray-400">
+                Completed  my Bachelor's degree while learning React.js,
+                JavaScript, Java, and Data Structures & Algorithms.
               </p>
             </div>
           </div>
@@ -94,10 +104,10 @@ const About = () => {
             <FaGraduationCap className="text-2xl text-amber-500 mt-1" />
             <div>
               <h3 className="text-lg font-semibold">
-                Secondary (Class X)
+                Senior Secondary (Class XII)
               </h3>
               <p className="text-sm text-gray-400">
-                CBSE Board
+                UP Board
               </p>
             </div>
           </div>
