@@ -12,7 +12,7 @@ const About = () => {
   return (
     <section className="text-white bg-slate-900/40 backdrop-blur-md border border-slate-700 rounded-2xl p-8 mt-10">
       {/* About */}
-      <h1 className="text-4xl font-bold">About</h1>
+      <h1 className="text-4xl font-bold">About Me</h1>
       <div className="w-20 h-1 bg-amber-500 rounded-full mt-3 mb-6"></div>
 
       <p className="text-gray-400 leading-8">
@@ -69,7 +69,7 @@ const About = () => {
             </div>
             <div>
               <h3 className="text-lg font-semibold">
-                Master's Degree
+                Master's Degree (MCA)
               </h3>
               <p className="text-sm text-gray-400">
                 2026 — Pursuing
@@ -88,7 +88,7 @@ const About = () => {
             </div>
             <div>
               <h3 className="text-lg font-semibold">
-              Bacholr's Degree
+              Bacholr's Degree (BCA)
               </h3>
               <p className="text-sm text-gray-400">
                 2022 — 2025

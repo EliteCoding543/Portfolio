@@ -45,7 +45,7 @@ const Navbar = () => {
       {/* Profile */}
       <div className="text-white px-5 py-5 border-b border-slate-700 flex items-center justify-center flex-col gap-4">
         <img
-          className="w-30 h-30 object-cover rounded-2xl"
+          className="w-40 h-40 object-cover rounded-2xl border"
           src={SelfPhoto}
           alt="Profile-img"
         />

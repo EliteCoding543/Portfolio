@@ -1,7 +1,11 @@
 import React from "react";
 import SideBar from "./Components/SideBar";
-import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
+import { Route, Routes } from "react-router-dom";
+import About from "./Pages/About";
+import Projects from "./Pages/Projects";
+import Skills from "./Pages/Skills";
+import Contact from "./Pages/Contact";
 
 const App = () => {
   return (
@@ -18,8 +22,13 @@ const App = () => {
           {/* Top Navbar */}
           <Navbar />
 
-          {/* Hero */}
-          <Hero />
+
+          <Routes>
+              <Route path="/" element={<About />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/skills" element={<Skills />} />
+              <Route path="/contact" element={<Contact />} />
+          </Routes>
         </main>
 
       </div>
