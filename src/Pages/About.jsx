@@ -88,7 +88,7 @@ const About = () => {
             </div>
             <div>
               <h3 className="text-lg font-semibold">
-              Bacholr's Degree (BCA)
+              Bacholr's Degree ()
               </h3>
               <p className="text-sm text-gray-400">
                 2022 — 2025
