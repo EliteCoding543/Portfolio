@@ -74,9 +74,11 @@ const About = () => {
               <p className="text-sm text-gray-400">
                 2026 — Pursuing
               </p>
-              <p className="text-gray-300 mt-2">
-                Pursuing my Bachelor's degree while learning React.js,
-                JavaScript, Java, and Data Structures & Algorithms.
+              <p className="text-gray-400 text-sm mt-2">
+              Pursuing my Master's degree while enhancing my expertise in
+              React.js, JavaScript, Java, Redux, and Data Structures &
+              Algorithms. Continuously building real-world projects to
+              strengthen my full-stack development skills.
               </p>
             </div>
           </div>
